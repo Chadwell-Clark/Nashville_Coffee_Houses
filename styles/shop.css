@@ -1,0 +1,31 @@
+.shop {
+	flex-basis: 25%;
+	border: 1px solid rgb(109, 72, 7);
+    border-radius: 5px;
+	padding:.5em;
+	margin: 0.5em;
+    line-height: 1.3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight:900;
+    background: navajowhite;
+    
+
+}
+.shop__info {
+
+    flex-direction: column;
+    line-height: 1.5rem;
+	font-size: 1rem;
+    padding: .5rem;
+}
+
+.shop__info-link {
+    color:rgb(109, 72, 7);
+}
+.shop__info-link:hover {
+    color:rgb(44, 149, 235);
+}
+.shop__info-link:active {
+    color:rgb(13, 92, 6);
+}
